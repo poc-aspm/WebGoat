@@ -138,7 +138,7 @@
     <!-- Use UTF-8 Encoding -->
     <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
     <project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
-    <thymeleaf.version>3.1.1.RELEASE</thymeleaf.version>
+    <thymeleaf.version>1.1.1.RELEASE</thymeleaf.version>
     <webdriver.version>5.3.3</webdriver.version>
     <webgoat.context>/</webgoat.context>
     <webgoat.port>8080</webgoat.port>
