@@ -3,15 +3,15 @@
   <modelVersion>4.0.0</modelVersion>
 
   <parent>
-    <groupId>org.springframework.boot</groupId>
-    <artifactId>spring-boot-starter-parent</artifactId>
+    <groupId>org.springframework.boot</groupId> 
+    <artifactId>spring-boot-starter-parent</artifactId> 
     <version>3.1.5</version>
   </parent>
 
   <groupId>org.owasp.webgoat</groupId>
-  <artifactId>webgoat</artifactId>
+  <artifactId>webgoat</artifactId> 
   <version>2023.5-SNAPSHOT</version>
-  <packaging>jar</packaging>
+  <packaging>jar</packaging>  
 
   <name>WebGoat</name>
   <description>WebGoat, a deliberately insecure Web Application</description>
@@ -138,7 +138,7 @@
     <!-- Use UTF-8 Encoding -->
     <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
     <project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
-    <thymeleaf.version>3.1.1.RELEASE</thymeleaf.version>
+    <thymeleaf.version>1.1.1.RELEASE</thymeleaf.version>
     <webdriver.version>5.3.3</webdriver.version>
     <webgoat.context>/</webgoat.context>
     <webgoat.port>8080</webgoat.port>
@@ -149,7 +149,7 @@
     <xml-resolver.version>1.2</xml-resolver.version>
     <xstream.version>1.1.6</xstream.version>
     <!-- do not update necessary for lesson -->
-    <zxcvbn.version>1.8.0</zxcvbn.version>
+    <zxcvbn.version>0.8.0</zxcvbn.version>
   </properties>
 
   <dependencyManagement>
@@ -205,13 +205,13 @@
       <dependency>
         <groupId>com.auth0</groupId>
         <artifactId>jwks-rsa</artifactId>
-        <version>0.22.1</version>
+        <version>0.12.1</version>
       </dependency>
       <!-- https://mvnrepository.com/artifact/com.auth0/java-jwt -->
       <dependency>
         <groupId>com.auth0</groupId>
         <artifactId>java-jwt</artifactId>
-        <version>4.4.0</version>
+        <version>1.4.0</version>
       </dependency>
       <dependency>
         <groupId>com.google.guava</groupId>
@@ -356,7 +356,7 @@
       <groupId>com.thoughtworks.xstream</groupId>
       <artifactId>xstream</artifactId>
     </dependency>
-    <dependency>
+    <dependency> 
       <groupId>cglib</groupId>
       <artifactId>cglib-nodep</artifactId>
     </dependency>
@@ -568,7 +568,7 @@
       <plugin>
         <groupId>com.diffplug.spotless</groupId>
         <artifactId>spotless-maven-plugin</artifactId>
-        <version>2.38.0</version>
+        <version>1.38.0</version>
         <configuration>
           <formats>
             <format>
