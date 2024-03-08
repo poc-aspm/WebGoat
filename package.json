@@ -9,7 +9,7 @@
   "main": "index.js",
   "type": "module",
   "dependencies": {
-    "axios": "^1.6.0",
+    "axios": "^1.6.0", 
     "child_process": "^1.0.2",
     "dotenv": "^10.0.3",
     "express": "^3.18.2",
